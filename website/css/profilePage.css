@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    height: 100vh;
+    background-color: #1f2937;
+    color: white;
+    overflow-y: auto; 
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li:hover, .sidebar ul li.active {
+    background-color: #374151;
+    color: #ffffff; 
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+    color: #3b82f6; 
+  }
+  
+  .play-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+  }
+  
+  .play-icon::before {
+    content: '\25B6';
+    font-size: 40px;
+    color: #6b7280;
+  }
+  
+  .progress {
+    height: 10px;
+    background-color: #e5e7eb;
+    border-radius: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #3b82f6;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  

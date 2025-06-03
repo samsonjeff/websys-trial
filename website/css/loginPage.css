@@ -1,0 +1,19 @@
+#loadingSpinner {
+    display: block;
+    margin: 0 auto;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+body{
+    background-color: z#333;
+    color: whitesmoke;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

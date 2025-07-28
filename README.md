@@ -20,6 +20,7 @@ A beginner-friendly PHP-based web application that serves as a student dashboard
 
 ## Setup Instructions
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/samsonjeff/webDevTrial.git
+### Clone this repository:
+```
+git clone https://github.com/samsonjeff/webDevTrial.git
+```

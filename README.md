@@ -21,7 +21,8 @@ A beginner-friendly PHP-based web application that serves as a student dashboard
 ## Setup Instructions
 
 ### Clone this repository:
-```[
-git clone https://github.com/samsonjeff/webDevTrial.git](https://github.com/samsonjeff/websys-trial.git)
 ```
+git clone https://github.com/samsonjeff/websys-trial.git
+```
+
 
